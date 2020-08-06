@@ -1,0 +1,27 @@
+{
+  "name": "dm-helper",
+  "version": "1.0.0",
+  "description": "DM tools focused on randomization",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "app": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnstucky/dm-helper.git"
+  },
+  "author": "Matthew Stucky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnstucky/dm-helper/issues"
+  },
+  "homepage": "https://github.com/mnstucky/dm-helper#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
